@@ -47,3 +47,12 @@ git log -p  // 修改的内容追加到log后面
 git checkout 版本的id （版本的id要大于等于7位）
 git checkout -  // 回退到上一个节点
 
+git tag -a 标签名 -m "备注"   // 附注标签
+git tag  // 列出所有标签
+git show 标签名  // 查看标签信息
+git checkout 标签名
+
+git branch 分支名 // 创建分支
+git checkout 分支名 //切换到分支上
+
+git log --all --graph  // 图示全部历史记录
