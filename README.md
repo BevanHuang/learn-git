@@ -6,6 +6,7 @@ git是版本控制工具
 
 二、git的安装和配置：
 官网: http://git-scm.com
+官网下载可能有点慢，建议百度下载。
 
 配置：
 git config --global user.name "xh"
