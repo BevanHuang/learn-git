@@ -44,6 +44,7 @@ git ocmmit -m "描述"  （版本提交）（描述特别重要）
 commit的内容是暂存区的内容(add操作)，如果add之后有修改了内容，这次修改的内容不会被commit 
 
 git log  （查看历史版本）（按 q 退出查看）
+git log --oneline // 一行查看
 git log -p  // 修改的内容追加到log后面
 git checkout 版本的id （版本的id要大于等于7位）
 git checkout -  // 回退到上一个节点
@@ -55,5 +56,7 @@ git checkout 标签名
 
 git branch 分支名 // 创建分支
 git checkout 分支名 //切换到分支上
+git checkout -b 分支名  // 创建分支并切换到该分支上
+git merge 分支名 // 把分支合并到主分支（master）上
 
 git log --all --graph  // 图示全部历史记录
