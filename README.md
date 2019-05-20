@@ -3,10 +3,12 @@
 # learn-git
 学习git的笔记：
 
-一、git的作用
+一、git的作用:
+=====
 git是版本控制工具
 
 二、git的安装和配置：
+=====
 官网: http://git-scm.com
 官网下载可能有点慢，建议百度下载。
 
@@ -16,6 +18,7 @@ git config --global user.email "glassysky@126.com"
 git config --list 或者 git config -l 查看配置信息
 
 三、git的一些常用命令
+=====
 git -v 或者 git --version
 git 查看命令
 
