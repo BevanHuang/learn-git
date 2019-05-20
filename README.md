@@ -1,3 +1,5 @@
+![iamge]（https://github.com/BevanHuang/learn-git/blob/master/Image/AboutGit.png)
+
 # learn-git
 学习git的笔记：
 
