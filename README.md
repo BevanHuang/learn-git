@@ -66,4 +66,5 @@ git remote 列出所有远程仓库
 
 git push -u 远程名称 分支名  // 上传代码，代码就保存在github的仓库里面  （本地-->github）
 当本地的项目丢失了之后，用 |git -clone 仓库地址 xh（项目名称）| 命令克隆一个仓库       （github-->本地）
-
+git pull  // 获取远程更新
+git pull == git fetch && git merge
