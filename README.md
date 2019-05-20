@@ -60,3 +60,10 @@ git checkout -b 分支名  // 创建分支并切换到该分支上
 git merge 分支名 // 把分支合并到主分支（master）上
 
 git log --all --graph  // 图示全部历史记录
+
+git remote add 远程名称 远程地址  // 添加远程仓库
+git remote 列出所有远程仓库
+
+git push -u 远程名称 分支名  // 上传代码，代码就保存在github的仓库里面  （本地-->github）
+当本地的项目丢失了之后，用 |git -clone 仓库地址 xh（项目名称）| 命令克隆一个仓库       （github-->本地）
+
