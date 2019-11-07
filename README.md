@@ -41,7 +41,7 @@ git的一些命令：
 git status （查看仓库当前的状态）<br>
 
 git add .  （将所有修改添加至暂存区）<br>
-git ocmmit -m "描述"  （版本提交）（描述特别重要） <br>
+git commit -m "描述"  （版本提交）（描述特别重要） <br>
 commit的内容是暂存区的内容(add操作)，如果add之后有修改了内容，这次修改的内容不会被commit <br>
 
 git log  （查看历史版本）（按 q 退出查看）<br>
